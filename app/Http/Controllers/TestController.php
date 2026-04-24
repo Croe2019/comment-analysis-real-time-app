@@ -3,13 +3,13 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use YoutubeService;
+use App\Services\YoutubeService;
 
 class TestController extends Controller
 {
-    public function test()
+    public function youtube()
     {
-        $url = 'https://www.youtube.com/watch?v=XXXXX'; // ライブ配信URLにする
+        $url = 'https://www.youtube.com/watch?v=W0hpBFmA2t4'; // ライブ配信URLにする
 
         $youtubeService = new YoutubeService();
 

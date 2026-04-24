@@ -8,4 +8,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/test-youtube', [TestController::class, 'test']);
+Route::get('/test-youtube', [TestController::class, 'youtube']);
